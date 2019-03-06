@@ -5,7 +5,8 @@ class Anagram
     @word = word 
   end 
   def match(array)
-   
-    binding.pry
+    array.each do |word|
+      binding.pry
     end
+  end
 end 
