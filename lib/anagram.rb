@@ -1,10 +1,10 @@
 require 'pry'
 class Anagram 
-  attr_accessor :word1
-  def initialize(word1)
-    @word1 = word1 
+  attr_accessor :word
+  def initialize(word)
+    @word = word 
   end 
-  def match(word2)
-    binding.pry
+  def match(array)
+    array.split
   end
 end 
