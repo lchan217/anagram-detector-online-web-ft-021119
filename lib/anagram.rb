@@ -6,5 +6,6 @@ class Anagram
   end 
   def match(array)
     array.split
+    binding.pry
   end
 end 
